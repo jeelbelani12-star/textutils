@@ -5,7 +5,7 @@ import Navbar from './components/Navbar';
 import TextForm from './components/TextForm';
 import Alert from './components/Alert';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Routes,
   Route,
   Link
@@ -43,7 +43,7 @@ function App() {
 
    return (
     <>
-    <Router basename="/textutils">
+    <Router>
 
       <Navbar
         title="TextUtils"
