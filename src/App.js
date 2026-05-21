@@ -43,7 +43,7 @@ function App() {
 
    return (
     <>
-    <Router>
+    <Router basename="/textutils">
 
       <Navbar
         title="TextUtils"
